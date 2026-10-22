@@ -9,11 +9,130 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Web App Automation Suite</th></tr>
-<tr><td><a href="#t0">Functional Tests</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">16,766</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Functional Tests</a></td><td class="num">12</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">86,378</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Web App Automation Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Functional Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.framework.tests.FormSubmissionTest</td><td><a href="#m0">testFormSubmission</a></td><td rowspan="2">1792666504905</td><td rowspan="2">1412</td></tr><tr class="passedeven"><td><a href="#m1">testFormSubmission</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Web App Automation Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Functional Tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.framework.tests.AdvancedElementsTest</td><td><a href="#m0">testMultipleWindows</a></td><td rowspan="1">1792668360403</td><td rowspan="1">4416</td></tr><tr class="failedeven"><td><a href="#m1">testSliderAndHover</a></td><td rowspan="1">1792668343489</td><td rowspan="1">10055</td></tr><tr class="failedodd"><td rowspan="1">com.framework.tests.HiddenAjaxTest</td><td><a href="#m2">testAjaxContentLoading</a></td><td rowspan="1">1792668341590</td><td rowspan="1">10651</td></tr><tr><th colspan="4">Functional Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.framework.tests.AdvancedElementsTest</td><td><a href="#m3">testCheckboxesAndDate</a></td><td rowspan="1">1792668311413</td><td rowspan="1">1023</td></tr><tr class="passedeven"><td><a href="#m4">testDynamicWebTable</a></td><td rowspan="1">1792668326949</td><td rowspan="1">326</td></tr><tr class="passedeven"><td><a href="#m5">testFileUpload</a></td><td rowspan="1">1792668320215</td><td rowspan="1">223</td></tr><tr class="passedeven"><td><a href="#m6">testPaginationTable</a></td><td rowspan="1">1792668336871</td><td rowspan="1">637</td></tr><tr class="passedodd"><td rowspan="2">com.framework.tests.FormSubmissionTest</td><td><a href="#m7">testFormSubmission</a></td><td rowspan="2">1792668288312</td><td rowspan="2">2327</td></tr><tr class="passedodd"><td><a href="#m8">testFormSubmission</a></td></tr><tr class="passedeven"><td rowspan="2">com.framework.tests.HiddenAjaxTest</td><td><a href="#m9">testHiddenCheckboxToggle</a></td><td rowspan="1">1792668327453</td><td rowspan="1">928</td></tr><tr class="passedeven"><td><a href="#m10">testHiddenInputToggle</a></td><td rowspan="1">1792668316567</td><td rowspan="1">468</td></tr><tr class="passedodd"><td rowspan="3">com.framework.tests.InteractionsTest</td><td><a href="#m11">testAlertHandling</a></td><td rowspan="1">1792668288291</td><td rowspan="1">506</td></tr><tr class="passedodd"><td><a href="#m12">testDoubleClickCopy</a></td><td rowspan="1">1792668295629</td><td rowspan="1">342</td></tr><tr class="passedodd"><td><a href="#m13">testDragAndDrop</a></td><td rowspan="1">1792668303835</td><td rowspan="1">543</td></tr><tr class="passedeven"><td rowspan="1">com.framework.tests.WebTableTest</td><td><a href="#m14">testStaticBookTablePrice</a></td><td rowspan="1">1792668308519</td><td rowspan="1">145</td></tr></tbody>
 </table>
-<h2>Functional Tests</h2><h3 id="m0">com.framework.tests.FormSubmissionTest#testFormSubmission</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>Jane Smith</td><td>jane.smith@test.com</td><td>9123456780</td><td>456 Elm St, London</td><td>Female</td><td>United Kingdom</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.framework.tests.FormSubmissionTest#testFormSubmission</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>John Doe</td><td>john.doe@test.com</td><td>9876543210</td><td>123 Main St, NY</td><td>Male</td><td>United States</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Functional Tests</h2><h3 id="m0">com.framework.tests.AdvancedElementsTest#testMultipleWindows</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: New tab did not open or navigate to the expected URL. expected [true] but found [false]
+	at com.framework.tests.AdvancedElementsTest.testMultipleWindows(AdvancedElementsTest.java:73)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+... Removed 14 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.framework.tests.AdvancedElementsTest#testSliderAndHover</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dee843c482111f6f87026a4e3b505051, actions {actions=[org.openqa.selenium.interactions.Sequence@485b5556]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.85, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52516}, goog:processID: 9032, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52516/devtoo..., se:cdpVersion: 155.0.8059.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dee843c482111f6f87026a4e3b505051
+	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:521)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$14(JsonOutput.java:179)
+	at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:410)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$21(JsonOutput.java:201)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1921)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$19(JsonOutput.java:201)
+	at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:410)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$23(JsonOutput.java:219)
+	at java.base/java.util.Map.forEach(Map.java:716)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:214)
+	at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:410)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:397)
+	at org.openqa.selenium.json.Json.toJson(Json.java:142)
+	at org.openqa.selenium.json.Json.toJson(Json.java:128)
+	at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:242)
+	at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:112)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:186)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:721)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:612)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:577)
+	at com.framework.pages.PracticePage.moveSliderToRight(PracticePage.java:144)
+	at com.framework.tests.AdvancedElementsTest.testSliderAndHover(AdvancedElementsTest.java:63)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+	Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
+Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.2&apos;
+Driver info: driver.version: RemoteWebDriver
+		at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:432)
+		at org.openqa.selenium.json.Json.toJson(Json.java:140)
+		... 28 more
+	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:517)
+	... 49 more
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#slider&quot;}
+  (Session info: chrome=155.0.8059.85)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dee843c482111f6f87026a4e3b505051, findElement {using=id, value=slider}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.85, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52516}, goog:processID: 9032, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52516/devtoo..., se:cdpVersion: 155.0.8059.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dee843c482111f6f87026a4e3b505051
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:67)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:400)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:260)
+	at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:209)
+	at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:73)
+	at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:82)
+	... 51 more
+... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.framework.tests.HiddenAjaxTest#testAjaxContentLoading</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for condition not to be valid: element to have text &quot;Status:&quot;. Current text: &quot;Status:&quot;.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.85, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56521}, goog:processID: 22220, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56521/devtoo..., se:cdpVersion: 155.0.8059.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ce8ec5bdb8e09187a8f5f31b3639d00d
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at com.framework.pages.HiddenAjaxPage.triggerAjaxAndWait(HiddenAjaxPage.java:70)
+	at com.framework.tests.HiddenAjaxTest.testAjaxContentLoading(HiddenAjaxTest.java:39)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+... Removed 11 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.framework.tests.AdvancedElementsTest#testCheckboxesAndDate</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.framework.tests.AdvancedElementsTest#testDynamicWebTable</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.framework.tests.AdvancedElementsTest#testFileUpload</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.framework.tests.AdvancedElementsTest#testPaginationTable</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.framework.tests.FormSubmissionTest#testFormSubmission</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>John Doe</td><td>john.doe@test.com</td><td>9876543210</td><td>123 Main St, NY</td><td>Male</td><td>United States</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.framework.tests.FormSubmissionTest#testFormSubmission</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>Jane Smith</td><td>jane.smith@test.com</td><td>9123456780</td><td>456 Elm St, London</td><td>Female</td><td>United Kingdom</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.framework.tests.HiddenAjaxTest#testHiddenCheckboxToggle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.framework.tests.HiddenAjaxTest#testHiddenInputToggle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.framework.tests.InteractionsTest#testAlertHandling</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.framework.tests.InteractionsTest#testDoubleClickCopy</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.framework.tests.InteractionsTest#testDragAndDrop</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">com.framework.tests.WebTableTest#testStaticBookTablePrice</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

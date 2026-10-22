@@ -10,15 +10,13 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
 public class HiddenAjaxPage {
-    private WebDriver driver;
+    // Removed unused 'private WebDriver driver;' field
     private WebDriverWait wait;
 
     // --- Locators ---
     @FindBy(xpath = "//button[text()='Toggle Input Box 2']") 
     private WebElement toggleInput2Btn;
     
-    // Assuming the hidden input appears near the toggle or has a common ID. 
-    // If it lacks an ID, we locate it by its relative position or type.
     @FindBy(xpath = "//input[@type='text' and not(@id='input1')] | //input[@id='input2']") 
     private WebElement hiddenInput2;
 
@@ -31,12 +29,11 @@ public class HiddenAjaxPage {
     @FindBy(xpath = "//button[text()='Load AJAX Content']") 
     private WebElement loadAjaxBtn;
 
-    // The status text that changes from "Ready" to something else (e.g., "Loaded")
     @FindBy(xpath = "//*[contains(text(), 'Status:')]") 
     private WebElement statusText;
 
     public HiddenAjaxPage(WebDriver driver) {
-        this.driver = driver;
+        // Removed 'this.driver = driver;' because it's not needed as a class field
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         PageFactory.initElements(driver, this);
     }
@@ -45,7 +42,6 @@ public class HiddenAjaxPage {
     
     public void toggleAndFillHiddenInput(String text) {
         toggleInput2Btn.click();
-        // Wait for it to become visible before interacting
         wait.until(ExpectedConditions.visibilityOf(hiddenInput2));
         hiddenInput2.clear();
         hiddenInput2.sendKeys(text);
@@ -60,15 +56,9 @@ public class HiddenAjaxPage {
     }
 
     public String triggerAjaxAndWait() {
-        // Capture initial status
         String initialStatus = statusText.getText();
-        
-        // Click the AJAX button
         loadAjaxBtn.click();
-        
-        // Wait until the status text changes from its initial state (e.g., "Ready")
         wait.until(ExpectedConditions.not(ExpectedConditions.textToBePresentInElement(statusText, initialStatus)));
-        
         return statusText.getText();
     }
 }
