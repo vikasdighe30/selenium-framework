@@ -1,0 +1,15 @@
+<suite name="Web App Automation Suite" parallel="classes" thread-count="2">
+    <listeners>
+        <listener class-name="com.framework.utils.TestListener"/>
+    </listeners>
+    <test name="Functional Tests">
+        <classes>
+            <class name="com.framework.tests.FormSubmissionTest"/>
+            <class name="com.framework.tests.InteractionsTest"/>
+            <class name="com.framework.tests.WebTableTest"/>
+            <class name="com.framework.tests.AdvancedElementsTest"/>
+            <!-- Add the new class here -->
+            <class name="com.framework.tests.HiddenAjaxTest"/> 
+        </classes>
+    </test>
+</suite>
