@@ -14,37 +14,10 @@
           <include name="setUp"/>
         </methods>
       </class> <!-- com.framework.tests.HiddenAjaxTest -->
-      <class name="com.framework.tests.WebTableTest">
-        <methods>
-          <include name="testStaticBookTablePrice"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.framework.tests.WebTableTest -->
-      <class name="com.framework.tests.InteractionsTest">
-        <methods>
-          <include name="testAlertHandling"/>
-          <include name="testDragAndDrop"/>
-          <include name="tearDown"/>
-          <include name="testDoubleClickCopy"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.framework.tests.InteractionsTest -->
-      <class name="com.framework.tests.FormSubmissionTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="testFormSubmission"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.framework.tests.FormSubmissionTest -->
       <class name="com.framework.tests.AdvancedElementsTest">
         <methods>
-          <include name="testPaginationTable"/>
-          <include name="testDynamicWebTable"/>
           <include name="testSliderAndHover"/>
-          <include name="testCheckboxesAndDate"/>
           <include name="tearDown"/>
-          <include name="testFileUpload"/>
           <include name="setUp"/>
           <include name="testMultipleWindows"/>
         </methods>
