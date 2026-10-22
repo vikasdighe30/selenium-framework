@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>12/3/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Oct 22 13:46:30 IST 2026</td>
+<td>Started on:</td><td>Thu Oct 22 15:39:57 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>114 seconds (114188 ms)</td>
+<tr><td>Total time:</td><td>112 seconds (112889 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,14 +76,97 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='com.framework.tests.AdvancedElementsTest.testMultipleWindows()'><b>testMultipleWindows</b><br>Test class: com.framework.tests.AdvancedElementsTest</td>
+<td><div><pre>java.lang.AssertionError: New tab did not open or navigate to the expected URL. expected [true] but found [false]
+	at com.framework.tests.AdvancedElementsTest.testMultipleWindows(AdvancedElementsTest.java:73)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1889201119", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1889201119'><pre>java.lang.AssertionError: New tab did not open or navigate to the expected URL. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.framework.tests.AdvancedElementsTest.testMultipleWindows(AdvancedElementsTest.java:73)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+</pre></div></td>
+<td>7</td>
+<td>com.framework.tests.AdvancedElementsTest@15de0b3c</td></tr>
+<tr>
+<td title='com.framework.tests.HiddenAjaxTest.testAjaxContentLoading()'><b>testAjaxContentLoading</b><br>Test class: com.framework.tests.HiddenAjaxTest</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for condition not to be valid: element to have text &quot;Status:&quot;. Current text: &quot;Status:&quot;.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.85, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52102}, goog:processID: 21140, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52102/devtoo..., se:cdpVersion: 155.0.8059.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e0910f29cacf4fcaa503a2ad2addd7d5
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at com.framework.pages.HiddenAjaxPage.triggerAjaxAndWait(HiddenAjaxPage.java:70)
+	at com.framework.tests.HiddenAjaxTest.testAjaxContentLoading(HiddenAjaxTest.java:39)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace497937747", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace497937747'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for condition not to be valid: element to have text &quot;Status:&quot;. Current text: &quot;Status:&quot;.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.85, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52102}, goog:processID: 21140, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52102/devtoo..., se:cdpVersion: 155.0.8059.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e0910f29cacf4fcaa503a2ad2addd7d5
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at com.framework.pages.HiddenAjaxPage.triggerAjaxAndWait(HiddenAjaxPage.java:70)
+	at com.framework.tests.HiddenAjaxTest.testAjaxContentLoading(HiddenAjaxTest.java:39)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+</pre></div></td>
+<td>10</td>
+<td>com.framework.tests.HiddenAjaxTest@489115ef</td></tr>
+<tr>
 <td title='com.framework.tests.AdvancedElementsTest.testSliderAndHover()'><b>testSliderAndHover</b><br>Test class: com.framework.tests.AdvancedElementsTest</td>
 <td><div><pre>org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
 Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5bce3bba5774390c8da6a7b8b6379535, actions {actions=[org.openqa.selenium.interactions.Sequence@734df8]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.85, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53312}, goog:processID: 22448, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53312/devtoo..., se:cdpVersion: 155.0.8059.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5bce3bba5774390c8da6a7b8b6379535
+Command: [60458519e8fc41eb852216b361b94ab1, actions {actions=[org.openqa.selenium.interactions.Sequence@6690b35e]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.85, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55908}, goog:processID: 20364, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55908/devtoo..., se:cdpVersion: 155.0.8059.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 60458519e8fc41eb852216b361b94ab1
 	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:521)
 	at org.openqa.selenium.json.JsonOutput.lambda$new$14(JsonOutput.java:179)
 	at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:410)
@@ -138,9 +221,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5bce3bba5774390c8da6a7b8b6379535, findElement {using=id, value=slider}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.85, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53312}, goog:processID: 22448, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53312/devtoo..., se:cdpVersion: 155.0.8059.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5bce3bba5774390c8da6a7b8b6379535
+Command: [60458519e8fc41eb852216b361b94ab1, findElement {value=slider, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.85, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55908}, goog:processID: 20364, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55908/devtoo..., se:cdpVersion: 155.0.8059.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 60458519e8fc41eb852216b361b94ab1
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -160,14 +243,14 @@ Session ID: 5bce3bba5774390c8da6a7b8b6379535
 	at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:73)
 	at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:82)
 	... 51 more
-... Removed 15 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1211573060", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1211573060'><pre>org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+... Removed 15 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1640717493", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1640717493'><pre>org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
 Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5bce3bba5774390c8da6a7b8b6379535, actions {actions=[org.openqa.selenium.interactions.Sequence@734df8]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.85, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53312}, goog:processID: 22448, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53312/devtoo..., se:cdpVersion: 155.0.8059.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5bce3bba5774390c8da6a7b8b6379535
+Command: [60458519e8fc41eb852216b361b94ab1, actions {actions=[org.openqa.selenium.interactions.Sequence@6690b35e]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.85, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55908}, goog:processID: 20364, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55908/devtoo..., se:cdpVersion: 155.0.8059.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 60458519e8fc41eb852216b361b94ab1
 	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:521)
 	at org.openqa.selenium.json.JsonOutput.lambda$new$14(JsonOutput.java:179)
 	at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:410)
@@ -236,9 +319,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5bce3bba5774390c8da6a7b8b6379535, findElement {using=id, value=slider}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.85, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53312}, goog:processID: 22448, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53312/devtoo..., se:cdpVersion: 155.0.8059.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5bce3bba5774390c8da6a7b8b6379535
+Command: [60458519e8fc41eb852216b361b94ab1, findElement {value=slider, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.85, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55908}, goog:processID: 20364, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55908/devtoo..., se:cdpVersion: 155.0.8059.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 60458519e8fc41eb852216b361b94ab1
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -262,89 +345,6 @@ Session ID: 5bce3bba5774390c8da6a7b8b6379535
 </pre></div></td>
 <td>10</td>
 <td>com.framework.tests.AdvancedElementsTest@15de0b3c</td></tr>
-<tr>
-<td title='com.framework.tests.HiddenAjaxTest.testAjaxContentLoading()'><b>testAjaxContentLoading</b><br>Test class: com.framework.tests.HiddenAjaxTest</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for condition not to be valid: element to have text &quot;Status:&quot;. Current text: &quot;Status:&quot;.
-(tried for 10 seconds with 500 milliseconds interval)
-Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.85, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61621}, goog:processID: 16100, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61621/devtoo..., se:cdpVersion: 155.0.8059.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9019980f4d65c3bba9e652bfad660255
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
-	at com.framework.pages.HiddenAjaxPage.triggerAjaxAndWait(HiddenAjaxPage.java:70)
-	at com.framework.tests.HiddenAjaxTest.testAjaxContentLoading(HiddenAjaxTest.java:39)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1349162542", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1349162542'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for condition not to be valid: element to have text &quot;Status:&quot;. Current text: &quot;Status:&quot;.
-(tried for 10 seconds with 500 milliseconds interval)
-Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.85, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61621}, goog:processID: 16100, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61621/devtoo..., se:cdpVersion: 155.0.8059.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9019980f4d65c3bba9e652bfad660255
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
-	at com.framework.pages.HiddenAjaxPage.triggerAjaxAndWait(HiddenAjaxPage.java:70)
-	at com.framework.tests.HiddenAjaxTest.testAjaxContentLoading(HiddenAjaxTest.java:39)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-</pre></div></td>
-<td>10</td>
-<td>com.framework.tests.HiddenAjaxTest@489115ef</td></tr>
-<tr>
-<td title='com.framework.tests.AdvancedElementsTest.testMultipleWindows()'><b>testMultipleWindows</b><br>Test class: com.framework.tests.AdvancedElementsTest</td>
-<td><div><pre>java.lang.AssertionError: New tab did not open or navigate to the expected URL. expected [true] but found [false]
-	at com.framework.tests.AdvancedElementsTest.testMultipleWindows(AdvancedElementsTest.java:73)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace390731956", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace390731956'><pre>java.lang.AssertionError: New tab did not open or navigate to the expected URL. expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1590)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at com.framework.tests.AdvancedElementsTest.testMultipleWindows(AdvancedElementsTest.java:73)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-</pre></div></td>
-<td>4</td>
-<td>com.framework.tests.AdvancedElementsTest@15de0b3c</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -355,29 +355,44 @@ Session ID: 9019980f4d65c3bba9e652bfad660255
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.framework.tests.InteractionsTest.testAlertHandling()'><b>testAlertHandling</b><br>Test class: com.framework.tests.InteractionsTest</td>
+<td title='com.framework.tests.FormSubmissionTest.testFormSubmission()'><b>testFormSubmission</b><br>Test class: com.framework.tests.FormSubmissionTest<br>Parameters: John Doe, john.doe@test.com, 9876543210, 123 Main St, NY, Male, United States</td>
 <td></td>
-<td>0</td>
-<td>com.framework.tests.InteractionsTest@6ed3ccb2</td></tr>
-<tr>
-<td title='com.framework.tests.AdvancedElementsTest.testCheckboxesAndDate()'><b>testCheckboxesAndDate</b><br>Test class: com.framework.tests.AdvancedElementsTest</td>
-<td></td>
-<td>0</td>
-<td>com.framework.tests.AdvancedElementsTest@15de0b3c</td></tr>
-<tr>
-<td title='com.framework.tests.WebTableTest.testStaticBookTablePrice()'><b>testStaticBookTablePrice</b><br>Test class: com.framework.tests.WebTableTest</td>
-<td></td>
-<td>0</td>
-<td>com.framework.tests.WebTableTest@1a677343</td></tr>
+<td>3</td>
+<td>com.framework.tests.FormSubmissionTest@292b08d6</td></tr>
 <tr>
 <td title='com.framework.tests.AdvancedElementsTest.testDynamicWebTable()'><b>testDynamicWebTable</b><br>Test class: com.framework.tests.AdvancedElementsTest</td>
 <td></td>
 <td>0</td>
 <td>com.framework.tests.AdvancedElementsTest@15de0b3c</td></tr>
 <tr>
-<td title='com.framework.tests.HiddenAjaxTest.testHiddenCheckboxToggle()'><b>testHiddenCheckboxToggle</b><br>Test class: com.framework.tests.HiddenAjaxTest</td>
+<td title='com.framework.tests.FormSubmissionTest.testFormSubmission()'><b>testFormSubmission</b><br>Test class: com.framework.tests.FormSubmissionTest<br>Parameters: Jane Smith, jane.smith@test.com, 9123456780, 456 Elm St, London, Female, United Kingdom</td>
+<td></td>
+<td>3</td>
+<td>com.framework.tests.FormSubmissionTest@292b08d6</td></tr>
+<tr>
+<td title='com.framework.tests.InteractionsTest.testDragAndDrop()'><b>testDragAndDrop</b><br>Test class: com.framework.tests.InteractionsTest</td>
 <td></td>
 <td>0</td>
+<td>com.framework.tests.InteractionsTest@6ed3ccb2</td></tr>
+<tr>
+<td title='com.framework.tests.AdvancedElementsTest.testPaginationTable()'><b>testPaginationTable</b><br>Test class: com.framework.tests.AdvancedElementsTest</td>
+<td></td>
+<td>1</td>
+<td>com.framework.tests.AdvancedElementsTest@15de0b3c</td></tr>
+<tr>
+<td title='com.framework.tests.InteractionsTest.testAlertHandling()'><b>testAlertHandling</b><br>Test class: com.framework.tests.InteractionsTest</td>
+<td></td>
+<td>0</td>
+<td>com.framework.tests.InteractionsTest@6ed3ccb2</td></tr>
+<tr>
+<td title='com.framework.tests.HiddenAjaxTest.testHiddenInputToggle()'><b>testHiddenInputToggle</b><br>Test class: com.framework.tests.HiddenAjaxTest</td>
+<td></td>
+<td>0</td>
+<td>com.framework.tests.HiddenAjaxTest@489115ef</td></tr>
+<tr>
+<td title='com.framework.tests.HiddenAjaxTest.testHiddenCheckboxToggle()'><b>testHiddenCheckboxToggle</b><br>Test class: com.framework.tests.HiddenAjaxTest</td>
+<td></td>
+<td>2</td>
 <td>com.framework.tests.HiddenAjaxTest@489115ef</td></tr>
 <tr>
 <td title='com.framework.tests.AdvancedElementsTest.testFileUpload()'><b>testFileUpload</b><br>Test class: com.framework.tests.AdvancedElementsTest</td>
@@ -387,33 +402,18 @@ Session ID: 9019980f4d65c3bba9e652bfad660255
 <tr>
 <td title='com.framework.tests.InteractionsTest.testDoubleClickCopy()'><b>testDoubleClickCopy</b><br>Test class: com.framework.tests.InteractionsTest</td>
 <td></td>
-<td>0</td>
+<td>1</td>
 <td>com.framework.tests.InteractionsTest@6ed3ccb2</td></tr>
 <tr>
-<td title='com.framework.tests.AdvancedElementsTest.testPaginationTable()'><b>testPaginationTable</b><br>Test class: com.framework.tests.AdvancedElementsTest</td>
+<td title='com.framework.tests.WebTableTest.testStaticBookTablePrice()'><b>testStaticBookTablePrice</b><br>Test class: com.framework.tests.WebTableTest</td>
 <td></td>
 <td>0</td>
-<td>com.framework.tests.AdvancedElementsTest@15de0b3c</td></tr>
+<td>com.framework.tests.WebTableTest@1a677343</td></tr>
 <tr>
-<td title='com.framework.tests.FormSubmissionTest.testFormSubmission()'><b>testFormSubmission</b><br>Test class: com.framework.tests.FormSubmissionTest<br>Parameters: Jane Smith, jane.smith@test.com, 9123456780, 456 Elm St, London, Female, United Kingdom</td>
+<td title='com.framework.tests.AdvancedElementsTest.testCheckboxesAndDate()'><b>testCheckboxesAndDate</b><br>Test class: com.framework.tests.AdvancedElementsTest</td>
 <td></td>
 <td>2</td>
-<td>com.framework.tests.FormSubmissionTest@292b08d6</td></tr>
-<tr>
-<td title='com.framework.tests.HiddenAjaxTest.testHiddenInputToggle()'><b>testHiddenInputToggle</b><br>Test class: com.framework.tests.HiddenAjaxTest</td>
-<td></td>
-<td>0</td>
-<td>com.framework.tests.HiddenAjaxTest@489115ef</td></tr>
-<tr>
-<td title='com.framework.tests.FormSubmissionTest.testFormSubmission()'><b>testFormSubmission</b><br>Test class: com.framework.tests.FormSubmissionTest<br>Parameters: John Doe, john.doe@test.com, 9876543210, 123 Main St, NY, Male, United States</td>
-<td></td>
-<td>1</td>
-<td>com.framework.tests.FormSubmissionTest@292b08d6</td></tr>
-<tr>
-<td title='com.framework.tests.InteractionsTest.testDragAndDrop()'><b>testDragAndDrop</b><br>Test class: com.framework.tests.InteractionsTest</td>
-<td></td>
-<td>0</td>
-<td>com.framework.tests.InteractionsTest@6ed3ccb2</td></tr>
+<td>com.framework.tests.AdvancedElementsTest@15de0b3c</td></tr>
 </table><p>
 </body>
 </html>
