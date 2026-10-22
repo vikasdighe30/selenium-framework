@@ -24,12 +24,18 @@
         </dependency>
         
         <!-- TestNG for Execution -->
-        <dependency>
+        <!--<dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>7.10.2</version>
             <scope>test</scope>
-        </dependency>
+        </dependency>-->
+        <dependency>
+    			<groupId>org.testng</groupId>
+    			<artifactId>testng</artifactId>
+    			<version>7.10.2</version>
+		</dependency>
+        
         
         <!-- Apache POI for Excel Data-Driven Testing -->
         <dependency>

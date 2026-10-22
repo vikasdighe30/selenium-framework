@@ -1,0 +1,6 @@
+com\framework\pages\PracticePage.class
+com\framework\base\BaseTest.class
+com\framework\pages\HiddenAjaxPage.class
+com\framework\utils\ExcelUtil.class
+com\framework\utils\ConfigReader.class
+com\framework\utils\TestListener.class

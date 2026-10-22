@@ -1,0 +1,6 @@
+com\framework\dataproviders\TestDataProvider.class
+com\framework\tests\FormSubmissionTest.class
+com\framework\tests\InteractionsTest.class
+com\framework\tests\WebTableTest.class
+com\framework\tests\HiddenAjaxTest.class
+com\framework\tests\AdvancedElementsTest.class
