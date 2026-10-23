@@ -2,82 +2,82 @@
 <testng-results ignored="0" total="15" passed="12" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-22T17:23:03 IST" name="Web App Automation Suite" finished-at="2026-10-22T17:24:43 IST" duration-ms="99520">
+  <suite started-at="2026-10-23T14:20:01 IST" name="Web App Automation Suite" finished-at="2026-10-23T14:22:20 IST" duration-ms="138955">
     <groups>
     </groups>
-    <test started-at="2026-10-22T17:23:03 IST" name="Functional Tests" finished-at="2026-10-22T17:24:43 IST" duration-ms="99520">
+    <test started-at="2026-10-23T14:20:01 IST" name="Functional Tests" finished-at="2026-10-23T14:22:20 IST" duration-ms="138955">
       <class name="com.framework.tests.AdvancedElementsTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.framework.tests.AdvancedElementsTest@5876a9af]" started-at="2026-10-22T17:23:45 IST" name="setUp" finished-at="2026-10-22T17:23:52 IST" duration-ms="7019" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.framework.tests.AdvancedElementsTest@5876a9af]" started-at="2026-10-23T14:21:23 IST" name="setUp" finished-at="2026-10-23T14:21:28 IST" duration-ms="4835" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testCheckboxesAndDate()[pri:1, instance:com.framework.tests.AdvancedElementsTest@5876a9af]" started-at="2026-10-22T17:23:52 IST" name="testCheckboxesAndDate" finished-at="2026-10-22T17:23:53 IST" duration-ms="939" status="PASS">
+        <test-method signature="testCheckboxesAndDate()[pri:1, instance:com.framework.tests.AdvancedElementsTest@5876a9af]" started-at="2026-10-23T14:21:28 IST" name="testCheckboxesAndDate" finished-at="2026-10-23T14:21:29 IST" duration-ms="1058" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCheckboxesAndDate -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.framework.tests.AdvancedElementsTest@5876a9af]" started-at="2026-10-22T17:23:53 IST" name="tearDown" finished-at="2026-10-22T17:23:53 IST" duration-ms="367" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.framework.tests.AdvancedElementsTest@5876a9af]" started-at="2026-10-23T14:21:29 IST" name="tearDown" finished-at="2026-10-23T14:21:29 IST" duration-ms="414" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.framework.tests.AdvancedElementsTest@5876a9af]" started-at="2026-10-22T17:23:53 IST" name="setUp" finished-at="2026-10-22T17:23:58 IST" duration-ms="4723" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.framework.tests.AdvancedElementsTest@5876a9af]" started-at="2026-10-23T14:21:29 IST" name="setUp" finished-at="2026-10-23T14:21:34 IST" duration-ms="4892" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testFileUpload()[pri:2, instance:com.framework.tests.AdvancedElementsTest@5876a9af]" started-at="2026-10-22T17:23:58 IST" name="testFileUpload" finished-at="2026-10-22T17:23:58 IST" duration-ms="374" status="PASS">
+        <test-method signature="testFileUpload()[pri:2, instance:com.framework.tests.AdvancedElementsTest@5876a9af]" started-at="2026-10-23T14:21:34 IST" name="testFileUpload" finished-at="2026-10-23T14:21:34 IST" duration-ms="197" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFileUpload -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.framework.tests.AdvancedElementsTest@5876a9af]" started-at="2026-10-22T17:23:58 IST" name="tearDown" finished-at="2026-10-22T17:23:58 IST" duration-ms="330" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.framework.tests.AdvancedElementsTest@5876a9af]" started-at="2026-10-23T14:21:34 IST" name="tearDown" finished-at="2026-10-23T14:21:35 IST" duration-ms="331" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.framework.tests.AdvancedElementsTest@5876a9af]" started-at="2026-10-22T17:23:58 IST" name="setUp" finished-at="2026-10-22T17:24:05 IST" duration-ms="6579" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.framework.tests.AdvancedElementsTest@5876a9af]" started-at="2026-10-23T14:21:35 IST" name="setUp" finished-at="2026-10-23T14:21:40 IST" duration-ms="5629" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testDynamicWebTable()[pri:3, instance:com.framework.tests.AdvancedElementsTest@5876a9af]" started-at="2026-10-22T17:24:05 IST" name="testDynamicWebTable" finished-at="2026-10-22T17:24:05 IST" duration-ms="215" status="PASS">
+        <test-method signature="testDynamicWebTable()[pri:3, instance:com.framework.tests.AdvancedElementsTest@5876a9af]" started-at="2026-10-23T14:21:40 IST" name="testDynamicWebTable" finished-at="2026-10-23T14:21:40 IST" duration-ms="125" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDynamicWebTable -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.framework.tests.AdvancedElementsTest@5876a9af]" started-at="2026-10-22T17:24:05 IST" name="tearDown" finished-at="2026-10-22T17:24:06 IST" duration-ms="278" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.framework.tests.AdvancedElementsTest@5876a9af]" started-at="2026-10-23T14:21:40 IST" name="tearDown" finished-at="2026-10-23T14:21:41 IST" duration-ms="307" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.framework.tests.AdvancedElementsTest@5876a9af]" started-at="2026-10-22T17:24:06 IST" name="setUp" finished-at="2026-10-22T17:24:11 IST" duration-ms="5626" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.framework.tests.AdvancedElementsTest@5876a9af]" started-at="2026-10-23T14:21:41 IST" name="setUp" finished-at="2026-10-23T14:21:46 IST" duration-ms="5510" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testPaginationTable()[pri:4, instance:com.framework.tests.AdvancedElementsTest@5876a9af]" started-at="2026-10-22T17:24:11 IST" name="testPaginationTable" finished-at="2026-10-22T17:24:12 IST" duration-ms="578" status="PASS">
+        <test-method signature="testPaginationTable()[pri:4, instance:com.framework.tests.AdvancedElementsTest@5876a9af]" started-at="2026-10-23T14:21:46 IST" name="testPaginationTable" finished-at="2026-10-23T14:21:47 IST" duration-ms="816" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPaginationTable -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.framework.tests.AdvancedElementsTest@5876a9af]" started-at="2026-10-22T17:24:12 IST" name="tearDown" finished-at="2026-10-22T17:24:12 IST" duration-ms="305" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.framework.tests.AdvancedElementsTest@5876a9af]" started-at="2026-10-23T14:21:47 IST" name="tearDown" finished-at="2026-10-23T14:21:47 IST" duration-ms="330" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.framework.tests.AdvancedElementsTest@5876a9af]" started-at="2026-10-22T17:24:12 IST" name="setUp" finished-at="2026-10-22T17:24:18 IST" duration-ms="6451" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.framework.tests.AdvancedElementsTest@5876a9af]" started-at="2026-10-23T14:21:47 IST" name="setUp" finished-at="2026-10-23T14:21:58 IST" duration-ms="10736" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testSliderAndHover()[pri:5, instance:com.framework.tests.AdvancedElementsTest@5876a9af]" started-at="2026-10-22T17:24:19 IST" name="testSliderAndHover" finished-at="2026-10-22T17:24:29 IST" duration-ms="10077" status="FAIL">
+        <test-method signature="testSliderAndHover()[pri:5, instance:com.framework.tests.AdvancedElementsTest@5876a9af]" started-at="2026-10-23T14:21:58 IST" name="testSliderAndHover" finished-at="2026-10-23T14:22:08 IST" duration-ms="10077" status="FAIL">
           <exception class="org.openqa.selenium.json.JsonException">
             <message>
               <![CDATA[java.lang.reflect.InvocationTargetException
 Build info: version: '4.46.0', revision: 'df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.4.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [833c522c6932f8639b1093c312b27266, actions {actions=[org.openqa.selenium.interactions.Sequence@22a5ad73]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.85, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54831}, goog:processID: 10988, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54831/devtoo..., se:cdpVersion: 155.0.8059.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 833c522c6932f8639b1093c312b27266]]>
+Command: [c8d81aa8e28e9646afa64bcc8872ca03, actions {actions=[org.openqa.selenium.interactions.Sequence@1cd8f24]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.85, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52544}, goog:processID: 2656, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52544/devtoo..., se:cdpVersion: 155.0.8059.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c8d81aa8e28e9646afa64bcc8872ca03]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
 Build info: version: '4.46.0', revision: 'df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.4.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [833c522c6932f8639b1093c312b27266, actions {actions=[org.openqa.selenium.interactions.Sequence@22a5ad73]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.85, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54831}, goog:processID: 10988, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54831/devtoo..., se:cdpVersion: 155.0.8059.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 833c522c6932f8639b1093c312b27266
+Command: [c8d81aa8e28e9646afa64bcc8872ca03, actions {actions=[org.openqa.selenium.interactions.Sequence@1cd8f24]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.85, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52544}, goog:processID: 2656, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52544/devtoo..., se:cdpVersion: 155.0.8059.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c8d81aa8e28e9646afa64bcc8872ca03
 at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:521)
 at org.openqa.selenium.json.JsonOutput.lambda$new$14(JsonOutput.java:179)
 at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:410)
@@ -146,9 +146,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.46.0', revision: 'df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.4.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [833c522c6932f8639b1093c312b27266, findElement {using=id, value=slider}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.85, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54831}, goog:processID: 10988, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54831/devtoo..., se:cdpVersion: 155.0.8059.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 833c522c6932f8639b1093c312b27266
+Command: [c8d81aa8e28e9646afa64bcc8872ca03, findElement {value=slider, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.85, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52544}, goog:processID: 2656, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52544/devtoo..., se:cdpVersion: 155.0.8059.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c8d81aa8e28e9646afa64bcc8872ca03
 at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -175,15 +175,15 @@ at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethod
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSliderAndHover -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.framework.tests.AdvancedElementsTest@5876a9af]" started-at="2026-10-22T17:24:29 IST" name="tearDown" finished-at="2026-10-22T17:24:32 IST" duration-ms="2439" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.framework.tests.AdvancedElementsTest@5876a9af]" started-at="2026-10-23T14:22:09 IST" name="tearDown" finished-at="2026-10-23T14:22:09 IST" duration-ms="393" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.framework.tests.AdvancedElementsTest@5876a9af]" started-at="2026-10-22T17:24:32 IST" name="setUp" finished-at="2026-10-22T17:24:38 IST" duration-ms="6389" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.framework.tests.AdvancedElementsTest@5876a9af]" started-at="2026-10-23T14:22:09 IST" name="setUp" finished-at="2026-10-23T14:22:14 IST" duration-ms="4490" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testMultipleWindows()[pri:6, instance:com.framework.tests.AdvancedElementsTest@5876a9af]" started-at="2026-10-22T17:24:38 IST" name="testMultipleWindows" finished-at="2026-10-22T17:24:42 IST" duration-ms="3997" status="FAIL">
+        <test-method signature="testMultipleWindows()[pri:6, instance:com.framework.tests.AdvancedElementsTest@5876a9af]" started-at="2026-10-23T14:22:14 IST" name="testMultipleWindows" finished-at="2026-10-23T14:22:19 IST" duration-ms="5295" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[New tab did not open or navigate to the expected URL. expected [true] but found [false]]]>
@@ -216,53 +216,53 @@ at java.base/java.lang.Thread.run(Thread.java:1474)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMultipleWindows -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.framework.tests.AdvancedElementsTest@5876a9af]" started-at="2026-10-22T17:24:42 IST" name="tearDown" finished-at="2026-10-22T17:24:43 IST" duration-ms="296" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.framework.tests.AdvancedElementsTest@5876a9af]" started-at="2026-10-23T14:22:19 IST" name="tearDown" finished-at="2026-10-23T14:22:20 IST" duration-ms="376" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.framework.tests.AdvancedElementsTest -->
       <class name="com.framework.tests.HiddenAjaxTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.framework.tests.HiddenAjaxTest@7ec7ffd3]" started-at="2026-10-22T17:23:46 IST" name="setUp" finished-at="2026-10-22T17:23:53 IST" duration-ms="6402" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.framework.tests.HiddenAjaxTest@7ec7ffd3]" started-at="2026-10-23T14:21:27 IST" name="setUp" finished-at="2026-10-23T14:21:31 IST" duration-ms="3943" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="navigateToAjaxPage()[pri:0, instance:com.framework.tests.HiddenAjaxTest@7ec7ffd3]" started-at="2026-10-22T17:23:53 IST" name="navigateToAjaxPage" finished-at="2026-10-22T17:23:55 IST" duration-ms="2753" status="PASS">
+        <test-method is-config="true" signature="navigateToAjaxPage()[pri:0, instance:com.framework.tests.HiddenAjaxTest@7ec7ffd3]" started-at="2026-10-23T14:21:31 IST" name="navigateToAjaxPage" finished-at="2026-10-23T14:21:35 IST" duration-ms="3528" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToAjaxPage -->
-        <test-method signature="testHiddenInputToggle()[pri:1, instance:com.framework.tests.HiddenAjaxTest@7ec7ffd3]" started-at="2026-10-22T17:23:55 IST" name="testHiddenInputToggle" finished-at="2026-10-22T17:23:56 IST" duration-ms="530" status="PASS">
+        <test-method signature="testHiddenInputToggle()[pri:1, instance:com.framework.tests.HiddenAjaxTest@7ec7ffd3]" started-at="2026-10-23T14:21:35 IST" name="testHiddenInputToggle" finished-at="2026-10-23T14:21:35 IST" duration-ms="434" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHiddenInputToggle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.framework.tests.HiddenAjaxTest@7ec7ffd3]" started-at="2026-10-22T17:23:56 IST" name="tearDown" finished-at="2026-10-22T17:23:56 IST" duration-ms="420" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.framework.tests.HiddenAjaxTest@7ec7ffd3]" started-at="2026-10-23T14:21:35 IST" name="tearDown" finished-at="2026-10-23T14:21:35 IST" duration-ms="392" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.framework.tests.HiddenAjaxTest@7ec7ffd3]" started-at="2026-10-22T17:23:56 IST" name="setUp" finished-at="2026-10-22T17:24:01 IST" duration-ms="4850" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.framework.tests.HiddenAjaxTest@7ec7ffd3]" started-at="2026-10-23T14:21:35 IST" name="setUp" finished-at="2026-10-23T14:21:43 IST" duration-ms="7226" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="navigateToAjaxPage()[pri:0, instance:com.framework.tests.HiddenAjaxTest@7ec7ffd3]" started-at="2026-10-22T17:24:01 IST" name="navigateToAjaxPage" finished-at="2026-10-22T17:24:04 IST" duration-ms="3322" status="PASS">
+        <test-method is-config="true" signature="navigateToAjaxPage()[pri:0, instance:com.framework.tests.HiddenAjaxTest@7ec7ffd3]" started-at="2026-10-23T14:21:43 IST" name="navigateToAjaxPage" finished-at="2026-10-23T14:21:46 IST" duration-ms="3294" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToAjaxPage -->
-        <test-method signature="testHiddenCheckboxToggle()[pri:2, instance:com.framework.tests.HiddenAjaxTest@7ec7ffd3]" started-at="2026-10-22T17:24:04 IST" name="testHiddenCheckboxToggle" finished-at="2026-10-22T17:24:05 IST" duration-ms="459" status="PASS">
+        <test-method signature="testHiddenCheckboxToggle()[pri:2, instance:com.framework.tests.HiddenAjaxTest@7ec7ffd3]" started-at="2026-10-23T14:21:46 IST" name="testHiddenCheckboxToggle" finished-at="2026-10-23T14:21:46 IST" duration-ms="402" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHiddenCheckboxToggle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.framework.tests.HiddenAjaxTest@7ec7ffd3]" started-at="2026-10-22T17:24:05 IST" name="tearDown" finished-at="2026-10-22T17:24:05 IST" duration-ms="390" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.framework.tests.HiddenAjaxTest@7ec7ffd3]" started-at="2026-10-23T14:21:46 IST" name="tearDown" finished-at="2026-10-23T14:21:47 IST" duration-ms="430" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.framework.tests.HiddenAjaxTest@7ec7ffd3]" started-at="2026-10-22T17:24:05 IST" name="setUp" finished-at="2026-10-22T17:24:10 IST" duration-ms="4676" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.framework.tests.HiddenAjaxTest@7ec7ffd3]" started-at="2026-10-23T14:21:47 IST" name="setUp" finished-at="2026-10-23T14:21:59 IST" duration-ms="12457" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="navigateToAjaxPage()[pri:0, instance:com.framework.tests.HiddenAjaxTest@7ec7ffd3]" started-at="2026-10-22T17:24:10 IST" name="navigateToAjaxPage" finished-at="2026-10-22T17:24:13 IST" duration-ms="3285" status="PASS">
+        <test-method is-config="true" signature="navigateToAjaxPage()[pri:0, instance:com.framework.tests.HiddenAjaxTest@7ec7ffd3]" started-at="2026-10-23T14:21:59 IST" name="navigateToAjaxPage" finished-at="2026-10-23T14:22:03 IST" duration-ms="3759" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToAjaxPage -->
-        <test-method signature="testAjaxContentLoading()[pri:3, instance:com.framework.tests.HiddenAjaxTest@7ec7ffd3]" started-at="2026-10-22T17:24:13 IST" name="testAjaxContentLoading" finished-at="2026-10-22T17:24:24 IST" duration-ms="10694" status="FAIL">
+        <test-method signature="testAjaxContentLoading()[pri:3, instance:com.framework.tests.HiddenAjaxTest@7ec7ffd3]" started-at="2026-10-23T14:22:03 IST" name="testAjaxContentLoading" finished-at="2026-10-23T14:22:14 IST" duration-ms="10592" status="FAIL">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for condition not to be valid: element to have text "Status:". Current text: "Status:".
@@ -270,8 +270,8 @@ at java.base/java.lang.Thread.run(Thread.java:1474)
 Build info: version: '4.46.0', revision: 'df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.4.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.85, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58038}, goog:processID: 17956, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58038/devtoo..., se:cdpVersion: 155.0.8059.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 101cfb76a99cdfdfb66116b4b6e0d778]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.85, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56664}, goog:processID: 9492, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56664/devtoo..., se:cdpVersion: 155.0.8059.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8746df81c070465675899abc81f87d0a]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for condition not to be valid: element to have text "Status:". Current text: "Status:".
@@ -279,8 +279,8 @@ Session ID: 101cfb76a99cdfdfb66116b4b6e0d778]]>
 Build info: version: '4.46.0', revision: 'df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.4.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.85, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58038}, goog:processID: 17956, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58038/devtoo..., se:cdpVersion: 155.0.8059.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 101cfb76a99cdfdfb66116b4b6e0d778
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.85, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56664}, goog:processID: 9492, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56664/devtoo..., se:cdpVersion: 155.0.8059.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8746df81c070465675899abc81f87d0a
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
 at com.framework.pages.HiddenAjaxPage.triggerAjaxAndWait(HiddenAjaxPage.java:61)
@@ -307,17 +307,17 @@ at java.base/java.lang.Thread.run(Thread.java:1474)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAjaxContentLoading -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.framework.tests.HiddenAjaxTest@7ec7ffd3]" started-at="2026-10-22T17:24:25 IST" name="tearDown" finished-at="2026-10-22T17:24:31 IST" duration-ms="6262" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.framework.tests.HiddenAjaxTest@7ec7ffd3]" started-at="2026-10-23T14:22:14 IST" name="tearDown" finished-at="2026-10-23T14:22:15 IST" duration-ms="417" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.framework.tests.HiddenAjaxTest -->
       <class name="com.framework.tests.FormSubmissionTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.framework.tests.FormSubmissionTest@123ef382]" started-at="2026-10-22T17:23:04 IST" name="setUp" finished-at="2026-10-22T17:23:27 IST" duration-ms="23878" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.framework.tests.FormSubmissionTest@123ef382]" started-at="2026-10-23T14:20:01 IST" name="setUp" finished-at="2026-10-23T14:21:03 IST" duration-ms="61872" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testFormSubmission(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.framework.tests.FormSubmissionTest@123ef382]" started-at="2026-10-22T17:23:27 IST" name="testFormSubmission" data-provider="DirectFormData" finished-at="2026-10-22T17:23:30 IST" duration-ms="2445" status="PASS">
+        <test-method signature="testFormSubmission(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.framework.tests.FormSubmissionTest@123ef382]" started-at="2026-10-23T14:21:03 IST" name="testFormSubmission" data-provider="DirectFormData" finished-at="2026-10-23T14:21:05 IST" duration-ms="1935" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -353,15 +353,15 @@ at java.base/java.lang.Thread.run(Thread.java:1474)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFormSubmission -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.framework.tests.FormSubmissionTest@123ef382]" started-at="2026-10-22T17:23:30 IST" name="tearDown" finished-at="2026-10-22T17:23:32 IST" duration-ms="1628" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.framework.tests.FormSubmissionTest@123ef382]" started-at="2026-10-23T14:21:05 IST" name="tearDown" finished-at="2026-10-23T14:21:06 IST" duration-ms="394" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.framework.tests.FormSubmissionTest@123ef382]" started-at="2026-10-22T17:23:32 IST" name="setUp" finished-at="2026-10-22T17:23:38 IST" duration-ms="6214" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.framework.tests.FormSubmissionTest@123ef382]" started-at="2026-10-23T14:21:06 IST" name="setUp" finished-at="2026-10-23T14:21:13 IST" duration-ms="7804" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testFormSubmission(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.framework.tests.FormSubmissionTest@123ef382]" started-at="2026-10-22T17:23:38 IST" name="testFormSubmission" data-provider="DirectFormData" finished-at="2026-10-22T17:23:39 IST" duration-ms="1133" status="PASS">
+        <test-method signature="testFormSubmission(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.framework.tests.FormSubmissionTest@123ef382]" started-at="2026-10-23T14:21:13 IST" name="testFormSubmission" data-provider="DirectFormData" finished-at="2026-10-23T14:21:15 IST" duration-ms="1607" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -397,59 +397,59 @@ at java.base/java.lang.Thread.run(Thread.java:1474)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFormSubmission -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.framework.tests.FormSubmissionTest@123ef382]" started-at="2026-10-22T17:23:39 IST" name="tearDown" finished-at="2026-10-22T17:23:39 IST" duration-ms="201" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.framework.tests.FormSubmissionTest@123ef382]" started-at="2026-10-23T14:21:15 IST" name="tearDown" finished-at="2026-10-23T14:21:15 IST" duration-ms="328" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.framework.tests.FormSubmissionTest -->
       <class name="com.framework.tests.InteractionsTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.framework.tests.InteractionsTest@1aa7ecca]" started-at="2026-10-22T17:23:04 IST" name="setUp" finished-at="2026-10-22T17:23:21 IST" duration-ms="17595" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.framework.tests.InteractionsTest@1aa7ecca]" started-at="2026-10-23T14:20:01 IST" name="setUp" finished-at="2026-10-23T14:21:05 IST" duration-ms="64187" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testAlertHandling()[pri:0, instance:com.framework.tests.InteractionsTest@1aa7ecca]" started-at="2026-10-22T17:23:21 IST" name="testAlertHandling" finished-at="2026-10-22T17:23:22 IST" duration-ms="1300" status="PASS">
+        <test-method signature="testAlertHandling()[pri:0, instance:com.framework.tests.InteractionsTest@1aa7ecca]" started-at="2026-10-23T14:21:05 IST" name="testAlertHandling" finished-at="2026-10-23T14:21:06 IST" duration-ms="288" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAlertHandling -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.framework.tests.InteractionsTest@1aa7ecca]" started-at="2026-10-22T17:23:23 IST" name="tearDown" finished-at="2026-10-22T17:23:23 IST" duration-ms="793" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.framework.tests.InteractionsTest@1aa7ecca]" started-at="2026-10-23T14:21:06 IST" name="tearDown" finished-at="2026-10-23T14:21:06 IST" duration-ms="473" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.framework.tests.InteractionsTest@1aa7ecca]" started-at="2026-10-22T17:23:23 IST" name="setUp" finished-at="2026-10-22T17:23:28 IST" duration-ms="5051" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.framework.tests.InteractionsTest@1aa7ecca]" started-at="2026-10-23T14:21:06 IST" name="setUp" finished-at="2026-10-23T14:21:19 IST" duration-ms="13129" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testDoubleClickCopy()[pri:0, instance:com.framework.tests.InteractionsTest@1aa7ecca]" started-at="2026-10-22T17:23:28 IST" name="testDoubleClickCopy" finished-at="2026-10-22T17:23:29 IST" duration-ms="468" status="PASS">
+        <test-method signature="testDoubleClickCopy()[pri:0, instance:com.framework.tests.InteractionsTest@1aa7ecca]" started-at="2026-10-23T14:21:19 IST" name="testDoubleClickCopy" finished-at="2026-10-23T14:21:20 IST" duration-ms="293" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDoubleClickCopy -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.framework.tests.InteractionsTest@1aa7ecca]" started-at="2026-10-22T17:23:29 IST" name="tearDown" finished-at="2026-10-22T17:23:30 IST" duration-ms="928" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.framework.tests.InteractionsTest@1aa7ecca]" started-at="2026-10-23T14:21:20 IST" name="tearDown" finished-at="2026-10-23T14:21:20 IST" duration-ms="343" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.framework.tests.InteractionsTest@1aa7ecca]" started-at="2026-10-22T17:23:30 IST" name="setUp" finished-at="2026-10-22T17:23:42 IST" duration-ms="11954" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.framework.tests.InteractionsTest@1aa7ecca]" started-at="2026-10-23T14:21:20 IST" name="setUp" finished-at="2026-10-23T14:21:26 IST" duration-ms="6378" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testDragAndDrop()[pri:0, instance:com.framework.tests.InteractionsTest@1aa7ecca]" started-at="2026-10-22T17:23:42 IST" name="testDragAndDrop" finished-at="2026-10-22T17:23:43 IST" duration-ms="994" status="PASS">
+        <test-method signature="testDragAndDrop()[pri:0, instance:com.framework.tests.InteractionsTest@1aa7ecca]" started-at="2026-10-23T14:21:26 IST" name="testDragAndDrop" finished-at="2026-10-23T14:21:27 IST" duration-ms="394" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDragAndDrop -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.framework.tests.InteractionsTest@1aa7ecca]" started-at="2026-10-22T17:23:43 IST" name="tearDown" finished-at="2026-10-22T17:23:45 IST" duration-ms="1958" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.framework.tests.InteractionsTest@1aa7ecca]" started-at="2026-10-23T14:21:27 IST" name="tearDown" finished-at="2026-10-23T14:21:27 IST" duration-ms="295" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.framework.tests.InteractionsTest -->
       <class name="com.framework.tests.WebTableTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.framework.tests.WebTableTest@59309333]" started-at="2026-10-22T17:23:39 IST" name="setUp" finished-at="2026-10-22T17:23:46 IST" duration-ms="6458" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.framework.tests.WebTableTest@59309333]" started-at="2026-10-23T14:21:15 IST" name="setUp" finished-at="2026-10-23T14:21:22 IST" duration-ms="7119" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testStaticBookTablePrice()[pri:0, instance:com.framework.tests.WebTableTest@59309333]" started-at="2026-10-22T17:23:46 IST" name="testStaticBookTablePrice" finished-at="2026-10-22T17:23:46 IST" duration-ms="181" status="PASS">
+        <test-method signature="testStaticBookTablePrice()[pri:0, instance:com.framework.tests.WebTableTest@59309333]" started-at="2026-10-23T14:21:22 IST" name="testStaticBookTablePrice" finished-at="2026-10-23T14:21:23 IST" duration-ms="211" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testStaticBookTablePrice -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.framework.tests.WebTableTest@59309333]" started-at="2026-10-22T17:23:46 IST" name="tearDown" finished-at="2026-10-22T17:23:46 IST" duration-ms="383" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.framework.tests.WebTableTest@59309333]" started-at="2026-10-23T14:21:23 IST" name="tearDown" finished-at="2026-10-23T14:21:23 IST" duration-ms="301" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
